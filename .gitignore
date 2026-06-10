@@ -1,0 +1,40 @@
+# Visual Studio build outputs
+BUILD/Debug/
+BUILD/Release/
+BUILD/obj/
+*.user
+*.suo
+.vs/
+
+# Visual Studio IntelliSense database
+*.VC.db
+*.VC.opendb
+ipch/
+
+# Compiled binaries (release copies go to DIST/ explicitly)
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# Internal development files (do not publish)
+MEMORY.MD
+PROJECT_STATUS.MD
+CLAUDE.md
+NOTES/
+SCRATCH/
+PRIVATE/
+INTERNAL/
+Marks Notes/
+
+# Original source archive (reference only, not part of public release)
+Original Source/
+
+# Local SDK path configuration (each developer sets their own)
+Local.props
+
+# Temporary files
+*.tmp
+*.bak
+~*

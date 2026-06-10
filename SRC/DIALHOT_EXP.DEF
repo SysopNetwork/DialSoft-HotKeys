@@ -1,0 +1,6 @@
+; Filename: DIALHOT_EXP.DEF
+LIBRARY DIALHOT.DLL
+; *** Visual Studio 2022 EXPORT ALIASES ONLY ***
+; DialSoft HotKeys - Copyright (c) Sysop Network
+EXPORTS
+	_init__dialhot=init__dialhot	@1

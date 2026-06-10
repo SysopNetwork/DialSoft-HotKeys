@@ -1,0 +1,97 @@
+  ==========================================================================
+  =                                HotKeys!                                =
+  ==========================================================================
+
+     Version: 2.7
+        Date: 2026
+  Maintainer: Sysop Network
+
+  ==========================================================================
+
+   Compiled for:
+     The Major BBS v10
+
+  ==========================================================================
+
+  *** Installation ***
+
+  After installing the files, the following steps should be taken:
+
+   1. This is a NO MSG module.  All changes can be made online!
+   2. Add "HotKeys" to your menu tree.
+      Add this where normal users can get to it as well, so they can
+      modify their Personal HotKeys.
+   3. All done! BBS GO!
+
+  ==========================================================================
+
+  *** What are HotKeys? ***
+
+      HotKeys make your bbs easier to navigate.  Long command lines, can
+    be compacted down and mapped to one control-key sequence!  These
+    commands will make it easier and faster to move around your system
+    as well as handle any other tasks you wish them to handle.
+
+      HotKeys also is an invaluable command line tool.  HotKeys allow you
+    to abort what you are currently typing by hitting the <ESC> key.  You
+    can redraw your current line of input using the CTRL-R sequence.  You
+    can even change the foreground & background color of what you are
+    typing!
+
+  ==========================================================================
+
+  *** Some Miscellaneous Notes ***
+
+   . HotKey CTRL-J is system reserved.  On our system we have found
+     that some users' terminals send CTRL-J's while they are telnetting in.
+     In most cases, it works fine for all users, except for users who are
+     telnetting in (CTRL-J is the only one we have found which does not work
+     in all cases).  This sequence is now mapped to disable HotKeys.
+
+   . HotKeys works by changing the users character interceptor.  If a module
+     you use changes a users character interceptor, they will NOT have access
+     to HotKeys until they exit that module back to a point where HotKeys
+     can safely re-enable itself on the users line.
+
+  ==========================================================================
+
+  Version 1.0b - May 11, 1996:
+   . First beta release.
+
+  Version 1.1b - June 1, 1996:
+   . Fixed it so CURSOR movements do not spit out "garbage" when pressed.
+   . Added a HOTKEY to turn off hotkeys.  I used CTRL-J because this
+     has caused problems with certain terminal programs.
+
+  Version 1.2 - July 10, 1996:
+   . Demos expire in 2 weeks.
+
+  Version 2.0 - November 12, 1996
+   . HotKeys is now NO MSG compliant!
+   . Moved HotKeys configuration to a Btrieve database instead of
+     the DIALHOT.CFG text file.
+
+  Version 2.1 - May 18, 1997
+   . Added option to turn off logon advertisement.
+
+  Version 2.5 - June 14, 1997
+   . Added ability for users to create personal HotKeys.  Each user
+     can now redefine keys !,@,#,$,%,^,&,*,(,) for personal HotKeys.
+
+   . Added global commands:
+      /HOTKEYS  ...  Shows System Defined HotKeys
+      /HOTON    ...  Enable HotKeys
+      /HOTOFF   ...  Disable HotKeys
+      /HOTLIST  ...  List your Personal HotKeys
+    All of these commands can be modified in CONFIG.
+
+  Version 2.6 - July 10, 1997
+   . WorldGroup 3.0 DOS Port.
+
+  Version 2.7
+   . Migrated build system to Microsoft Visual Studio 2022.
+   . Ported to The Major BBS v10.
+   . Released as open-source under the MIT License.
+   . Removed commercial licensing system.
+
+  ==========================================================================
