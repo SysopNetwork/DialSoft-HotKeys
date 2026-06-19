@@ -4,7 +4,7 @@ All notable changes to DialSoft HotKeys are documented in this file.
 
 ---
 
-## [2.7] - Unreleased
+## [2.7] - 2026-06-18
 
 ### Added
 - Windows version resource (`DIALHOT.RC`): DLL now carries embedded file properties — product name "DialSoft HotKeys", version 2.7.0.0, company "Sysop Network", copyright "Copyright © Sysop Network".

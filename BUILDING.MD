@@ -47,7 +47,7 @@ The project defines the following for all configurations:
 | `WIN32` | Windows platform |
 | `GCWINNT` | Galacticomm Windows NT target |
 | `GCMVC` | Galacticomm MSVC compiler target |
-| `WGNT` | Worldgroup NT code path (activates NT-specific licensing logic; will be removed in open-source transition) |
+| `WGNT` | Worldgroup NT code path; required for the MBBS v10 NT module build target |
 | `BBSVER=1000` | Target MBBS version 10 |
 | `USE_DEF_FILE` | Use module definition file for exports |
 | `__BUILDV10MODULE` | Building an MBBS v10 module |
