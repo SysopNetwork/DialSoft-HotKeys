@@ -22,7 +22,7 @@ Originally written by Richard Iglar / DialSoft in 1997 for MajorBBS 6.x and Worl
 ## Requirements
 
 - The Major BBS v10
-- Win32 (x86) server process
+- Windows (32-bit or 64-bit) — MBBS v10 is a 32-bit server process and runs on 64-bit Windows via WOW64; the module DLL is compiled Win32 and works on both
 
 ---
 

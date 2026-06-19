@@ -36,7 +36,7 @@ After setting the environment variable, restart Visual Studio.
 | Debug | Win32 | `BUILD\Debug\DIALHOT.DLL` |
 | Release | Win32 | `BUILD\Release\DIALHOT.DLL` |
 
-**Only Win32 (x86) is supported.** The MBBS v10 server process is 32-bit.
+**Only Win32 (x86) is supported.** The MBBS v10 server process is 32-bit and runs on 64-bit Windows via WOW64. The compiled DLL is compatible with both 32-bit and 64-bit Windows systems.
 
 ## Preprocessor Definitions
 
