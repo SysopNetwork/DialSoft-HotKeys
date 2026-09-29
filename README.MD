@@ -82,6 +82,13 @@ See [BUILDING.MD](BUILDING.MD) for full build instructions.
 
 ---
 
+## Tips / Donations
+
+- **Cash App:** [$laudenbachm](https://cash.app/$laudenbachm)
+- **Ko-fi:** [ko-fi.com/laudenbachm](https://ko-fi.com/laudenbachm)
+
+---
+
 ## License
 
 MIT License — see [LICENSE](LICENSE) for the full text.
